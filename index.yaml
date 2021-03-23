@@ -3,19 +3,10 @@ entries:
   csgo:
   - annotations:
       artifacthub.io/changes: |
-        **Added:**
-          * Default `.helmignore` values
-          * `timezone` value
-        **Changed:**
-          * Define `manifests` dependency more loose
-        **Deprecated:**
-          * None
-        **Removed:**
-          * None
-        **Fixed:**
-          * Moved to new `library` naming
-        **Security:**
-          * None
+        - "[Added]: Default `.helmignore` values"
+        - "[Added]: `timezone` value"
+        - "[Changed]: Define `manifests` dependency more loose"
+        - "[Fixed]: Moved to new `library` naming"
       artifacthub.io/containsSecurityUpdates: "false"
       artifacthub.io/images: |
         - name: latest
@@ -27,13 +18,13 @@ entries:
       artifacthub.io/prerelease: "true"
     apiVersion: v2
     appVersion: 1.0.0
-    created: "2021-01-15T00:52:54.576269283Z"
+    created: "2021-03-23T20:05:40.1009427Z"
     dependencies:
     - name: manifests
       repository: https://bedag.github.io/helm-charts
       version: '>= 0.4.0 < 1.0.0'
     description: Source Server
-    digest: ef17166a750464d78e96963d9561d1aa5af049f71c3f6af4d17c7e59677ee339
+    digest: f57e08db5cf4a4950405425b599db1f5a178f5f889e4c7856c857e144c472911
     home: https://github.com/CM2Walki/CSGO
     icon: https://secure.gravatar.com/avatar/5bc9e6b19f1183776d7ff3a9652bd0a7.jpg?s=80&r=g&d=mm
     maintainers:
@@ -46,96 +37,21 @@ entries:
     - https://github.com/buttahtoast/helm-charts/tree/master/charts/csgo
     type: application
     urls:
-    - https://github.com/buttahtoast/helm-charts/releases/download/csgo-0.2.0/csgo-0.2.0.tgz
-    version: 0.2.0
-  - annotations:
-      artifacthub.io/changes: |
-        - adding chart source
-      artifacthub.io/containsSecurityUpdates: "false"
-      artifacthub.io/images: |
-        - name: latest
-          image: cm2network/csgo:latest
-        - name: sourcemod
-          image: cm2network/csgo:sourcemod
-        - name: metamod
-          image: cm2network/csgo:metamod
-      artifacthub.io/prerelease: "true"
-    apiVersion: v2
-    appVersion: 1.0.0
-    created: "2021-01-14T23:14:36.142974707Z"
-    dependencies:
-    - name: manifests
-      repository: https://bedag.github.io/helm-charts
-      version: '>=0.1.0'
-    description: Source Server
-    digest: d4c03ce15c6fb9300e5825b93fa9a90d54444eab5c6ea51cae367d6e056733ac
-    home: https://github.com/CM2Walki/CSGO
-    icon: https://secure.gravatar.com/avatar/5bc9e6b19f1183776d7ff3a9652bd0a7.jpg?s=80&r=g&d=mm
-    maintainers:
-    - email: oliverbaehler@hotmail.com
-      name: oliverbaehler
-    - email: kk@sudo-i.net
-      name: chifu1234
-    name: csgo
-    sources:
-    - https://github.com/buttahtoast/helm-charts/tree/master/charts/csgo
-    type: application
-    urls:
-    - https://github.com/buttahtoast/helm-charts/releases/download/csgo-0.1.1/csgo-0.1.1.tgz
-    version: 0.1.1
-  - annotations:
-      artifacthub.io/containsSecurityUpdates: "false"
-      artifacthub.io/images: |
-        - name: latest
-          image: cm2network/csgo:latest
-        - name: sourcemod
-          image: cm2network/csgo:sourcemod
-        - name: metamod
-          image: cm2network/csgo:metamod
-      artifacthub.io/prerelease: "true"
-    apiVersion: v2
-    appVersion: 1.0.0
-    created: "2020-12-25T13:30:38.346496523Z"
-    dependencies:
-    - name: manifests
-      repository: https://bedag.github.io/helm-charts
-      version: '>=0.1.0'
-    description: Source Server
-    digest: 5a5250d576ca58145dfccc10795d3b607cd4ae7424d81858c58caf7a040a7332
-    home: https://github.com/CM2Walki/CSGO
-    icon: https://secure.gravatar.com/avatar/5bc9e6b19f1183776d7ff3a9652bd0a7.jpg?s=80&r=g&d=mm
-    maintainers:
-    - email: oliverbaehler@hotmail.com
-      name: oliverbaehler
-    - email: kk@sudo-i.net
-      name: chifu1234
-    name: csgo
-    type: application
-    urls:
-    - https://github.com/buttahtoast/helm-charts/releases/download/csgo-0.1.0/csgo-0.1.0.tgz
-    version: 0.1.0
+    - https://github.com/oliverbaehler/helm-charts-1/releases/download/csgo-0.2.1/csgo-0.2.1.tgz
+    version: 0.2.1
   library:
   - annotations:
       artifacthub.io/changes: |
-        **Added:**
-          * Default `.helmignore` values
-        **Changed:**
-          * Convert Proxy values into strings before executing `printf`
-        **Deprecated:**
-          * None
-        **Removed:**
-          * None
-        **Fixed:**
-          * Moved to new `library` naming
-        **Security:**
-          * None
+        - "[Added]: Default `.helmignore` values"
+        - "[Changed]: Convert Proxy values into strings before executing `printf`"
+        - "[Fixed]: Moved to new `library` naming"
       artifacthub.io/containsSecurityUpdates: "false"
       artifacthub.io/prerelease: "true"
     apiVersion: v2
     appVersion: 0.1.0
-    created: "2021-01-15T00:52:54.728554208Z"
+    created: "2021-03-23T20:05:40.226552144Z"
     description: Buttahtoast Helm Library
-    digest: a375ce8ae571db0011c56ff694ea2c215bde79c18358e7c92bc6d3a8614ae139
+    digest: 950a590640d963ca41974421f615e85de546758fc2515e1384bf0051be1af5ff
     home: https://github.com/buttahtoast/helm-charts/tree/master/charts/library
     icon: https://avatars0.githubusercontent.com/u/67652090?s=400&u=874d1c989b0afc2789865be01051f0bbfc84ae32&v=4
     keywords:
@@ -151,180 +67,18 @@ entries:
     - https://github.com/buttahtoast/helm-charts/tree/master/charts/library
     type: library
     urls:
-    - https://github.com/buttahtoast/helm-charts/releases/download/library-0.3.3/library-0.3.3.tgz
-    version: 0.3.3
-  - annotations:
-      artifacthub.io/changes: |
-        - adding chart source
-      artifacthub.io/containsSecurityUpdates: "false"
-      artifacthub.io/prerelease: "true"
-    apiVersion: v2
-    appVersion: 0.1.0
-    created: "2021-01-14T23:14:36.28967185Z"
-    description: Buttahtoast Helm Library
-    digest: 62c01077ca4fcfe0cf836923dbb8210324a04388ed235c77c5f224dbed5a2380
-    home: https://github.com/buttahtoast/helm-charts/tree/master/charts/library
-    icon: https://avatars0.githubusercontent.com/u/67652090?s=400&u=874d1c989b0afc2789865be01051f0bbfc84ae32&v=4
-    keywords:
-    - library
-    - sprig
-    maintainers:
-    - email: oliverbaehler@hotmail.com
-      name: oliverbaehler
-    - email: kk@sudo-i.net
-      name: chifu1234
-    name: library
-    sources:
-    - https://github.com/buttahtoast/helm-charts/tree/master/charts/library
-    type: library
-    urls:
-    - https://github.com/buttahtoast/helm-charts/releases/download/library-0.3.2/library-0.3.2.tgz
-    version: 0.3.2
-  - annotations:
-      artifacthub.io/containsSecurityUpdates: "false"
-      artifacthub.io/prerelease: "true"
-    apiVersion: v2
-    appVersion: 0.1.0
-    created: "2021-01-08T15:37:56.325468565Z"
-    description: Buttahtoast Helm Library
-    digest: 5bb3785af3e50b4ecb45def171639686d73e1f2be4dbffacd9efb55dafa6567c
-    home: https://github.com/buttahtoast/helm-charts/tree/master/charts/library
-    icon: https://avatars0.githubusercontent.com/u/67652090?s=400&u=874d1c989b0afc2789865be01051f0bbfc84ae32&v=4
-    keywords:
-    - library
-    - sprig
-    maintainers:
-    - email: oliverbaehler@hotmail.com
-      name: oliverbaehler
-    - email: kk@sudo-i.net
-      name: chifu1234
-    name: library
-    type: library
-    urls:
-    - https://github.com/buttahtoast/helm-charts/releases/download/library-0.3.1/library-0.3.1.tgz
-    version: 0.3.1
-  - annotations:
-      artifacthub.io/containsSecurityUpdates: "false"
-      artifacthub.io/prerelease: "true"
-    apiVersion: v2
-    appVersion: 0.1.0
-    created: "2021-01-04T16:59:30.66666826Z"
-    description: Buttahtoast Helm Library
-    digest: 48f876b16b9dbfb6ad26db88f237a48e9c3242dfca335deb80cd267c282ab99d
-    home: https://github.com/buttahtoast/helm-charts/tree/master/charts/library
-    icon: https://avatars0.githubusercontent.com/u/67652090?s=400&u=874d1c989b0afc2789865be01051f0bbfc84ae32&v=4
-    keywords:
-    - library
-    - sprig
-    maintainers:
-    - email: oliverbaehler@hotmail.com
-      name: oliverbaehler
-    - email: kk@sudo-i.net
-      name: chifu1234
-    name: library
-    type: library
-    urls:
-    - https://github.com/buttahtoast/helm-charts/releases/download/library-0.3.0/library-0.3.0.tgz
-    version: 0.3.0
-  - annotations:
-      artifacthub.io/containsSecurityUpdates: "false"
-      artifacthub.io/prerelease: "true"
-    apiVersion: v2
-    appVersion: 0.1.0
-    created: "2020-12-24T14:09:50.641207953Z"
-    description: Buttahtoast Helm Library
-    digest: abd6d8c3afceb885f2fbb907c9d37d935ff60d88f9971399ea88db1437936046
-    home: https://github.com/buttahtoast/helm-charts/tree/master/charts/library
-    icon: https://avatars0.githubusercontent.com/u/67652090?s=400&u=874d1c989b0afc2789865be01051f0bbfc84ae32&v=4
-    keywords:
-    - library
-    - sprig
-    maintainers:
-    - email: oliverbaehler@hotmail.com
-      name: oliverbaehler
-    - email: kk@sudo-i.net
-      name: chifu1234
-    name: library
-    type: library
-    urls:
-    - https://github.com/buttahtoast/helm-charts/releases/download/library-0.2.1/library-0.2.1.tgz
-    version: 0.2.1
-  - annotations:
-      artifacthub.io/containsSecurityUpdates: "false"
-      artifacthub.io/prerelease: "true"
-    apiVersion: v2
-    appVersion: 0.1.0
-    created: "2020-12-11T12:18:17.347088727Z"
-    description: Buttahtoast Helm Library
-    digest: c2bdc7211ae4b9d370e9dd3f5e1414260406d31c7212abe8091d6e3c3c54344e
-    home: https://github.com/buttahtoast/helm-charts/tree/master/charts/library
-    keywords:
-    - library
-    maintainers:
-    - email: oliverbaehler@hotmail.com
-      name: oliverbaehler
-    name: library
-    type: library
-    urls:
-    - https://github.com/buttahtoast/helm-charts/releases/download/library-0.2.0/library-0.2.0.tgz
-    version: 0.2.0
-  - annotations:
-      artifacthub.io/containsSecurityUpdates: "false"
-      artifacthub.io/prerelease: "true"
-    apiVersion: v2
-    appVersion: 0.1.0
-    created: "2020-11-30T22:19:03.543005093Z"
-    description: Buttahtoast Helm Library
-    digest: 0023eeb589d72eac77c0b633e3183fc30abee0e81f6f836b2139c3f6bd590940
-    home: https://github.com/buttahtoast/helm-charts/tree/master/charts/library
-    keywords:
-    - library
-    maintainers:
-    - email: oliverbaehler@hotmail.com
-      name: oliverbaehler
-    name: library
-    type: library
-    urls:
-    - https://github.com/buttahtoast/helm-charts/releases/download/library-0.1.1/library-0.1.1.tgz
-    version: 0.1.1
-  - annotations:
-      artifacthub.io/containsSecurityUpdates: "false"
-      artifacthub.io/prerelease: "true"
-    apiVersion: v2
-    appVersion: 0.1.0
-    created: "2020-11-27T12:51:51.363355958Z"
-    description: Buttahtoast Helm Library
-    digest: 6d3bf7efb3aeb39579c41e2ec046625a1859490952d1f7ca41a7d0aa79d78285
-    home: https://github.com/buttahtoast/helm-charts/tree/master/charts/library
-    keywords:
-    - library
-    maintainers:
-    - email: oliverbaehler@hotmail.com
-      name: oliverbaehler
-    name: library
-    type: library
-    urls:
-    - https://github.com/buttahtoast/helm-charts/releases/download/library-0.1.0/library-0.1.0.tgz
-    version: 0.1.0
+    - https://github.com/oliverbaehler/helm-charts-1/releases/download/library-0.3.4/library-0.3.4.tgz
+    version: 0.3.4
   tavern:
   - annotations:
       artifacthub.io/changes: |
-        **Added:**
-          * Allow Vanilla Tavern Tests
-          * Return empty when no tests are defined
-          * Simple exmample for documentation
-          * `timezone` value
-          * Dumy Test as default (Allows linting)
-        **Changed:**
-          * Define `manifests` dependency more loose
-        **Deprecated:**
-          * None
-        **Removed:**
-          * None
-        **Fixed:**
-          * Moved to new `library` naming
-        **Security:**
-          * None
+        - "[Added]: Allow Vanilla Tavern Tests"
+        - "[Added]: Return empty when no tests are defined"
+        - "[Added]: Simple exmample for documentation"
+        - "[Added]: `timezone` value"
+        - "[Added]: Dumy Test as default (Allows linting)"
+        - "[Changed]: Define `manifests` dependency more loose"
+        - "[Fixed]: `Moved to new `library` naming"
       artifacthub.io/containsSecurityUpdates: "false"
       artifacthub.io/images: |
         - name: tavern
@@ -332,13 +86,13 @@ entries:
       artifacthub.io/prerelease: "true"
     apiVersion: v2
     appVersion: 1.1.0
-    created: "2021-01-15T00:52:54.939082726Z"
+    created: "2021-03-23T20:05:40.349024858Z"
     dependencies:
     - name: manifests
       repository: https://bedag.github.io/helm-charts
       version: '>= 0.4.0 < 1.0.0'
     description: Unofficial Tavern Helm Chart
-    digest: 4a29fc00acf543c7da7d8b9fdb53162e4bc1cf88222d95a04da34eb97e1071f3
+    digest: 306adf24e9f5ec203ce7a7185243bedef9cbfeb313e9ce5559bd63b5b1401f96
     home: https://tavern.readthedocs.io/en/latest/
     icon: https://tavern.readthedocs.io/en/latest/_static/icon.png
     keywords:
@@ -356,292 +110,6 @@ entries:
     - https://github.com/buttahtoast/helm-charts/tree/master/charts/tavern
     type: application
     urls:
-    - https://github.com/buttahtoast/helm-charts/releases/download/tavern-0.3.0/tavern-0.3.0.tgz
-    version: 0.3.0
-  - annotations:
-      artifacthub.io/changes: |
-        - adding chart source
-      artifacthub.io/containsSecurityUpdates: "true"
-      artifacthub.io/images: |
-        - name: tavern
-          image: buttahtoast/docker-tavern:1.0.4
-      artifacthub.io/prerelease: "true"
-    apiVersion: v2
-    appVersion: 1.0.4
-    created: "2021-01-14T23:14:36.439586138Z"
-    dependencies:
-    - name: manifests
-      repository: https://bedag.github.io/helm-charts
-      version: '>=0.1.0'
-    description: Unofficial Tavern Helm Chart
-    digest: 4b4e29484bc366a92d2b50c7fe8ffebb9f2456bae8890115c591bec2751a8f87
-    home: https://tavern.readthedocs.io/en/latest/
-    icon: https://tavern.readthedocs.io/en/latest/_static/icon.png
-    keywords:
-    - python
-    - tavern
-    - API testing
-    - pytest
-    maintainers:
-    - email: oliverbaehler@hotmail.com
-      name: oliverbaehler
-    - email: kk@sudo-i.net
-      name: chifu1234
-    name: tavern
-    sources:
-    - https://github.com/buttahtoast/helm-charts/tree/master/charts/tavern
-    type: application
-    urls:
-    - https://github.com/buttahtoast/helm-charts/releases/download/tavern-0.2.4/tavern-0.2.4.tgz
-    version: 0.2.4
-  - annotations:
-      artifacthub.io/containsSecurityUpdates: "true"
-      artifacthub.io/images: |
-        - name: tavern
-          image: buttahtoast/docker-tavern:1.0.4
-      artifacthub.io/prerelease: "true"
-    apiVersion: v2
-    appVersion: 1.0.4
-    created: "2020-12-27T14:17:24.561290687Z"
-    dependencies:
-    - name: manifests
-      repository: https://bedag.github.io/helm-charts
-      version: '>=0.1.0'
-    description: Unofficial Tavern Helm Chart
-    digest: ff0d8cabcba4e8fd6b8e53bde0294ea6887ce11f1a23d8ed44e4f515418367a5
-    home: https://tavern.readthedocs.io/en/latest/
-    icon: https://tavern.readthedocs.io/en/latest/_static/icon.png
-    keywords:
-    - python
-    - tavern
-    - API testing
-    - pytest
-    maintainers:
-    - email: oliverbaehler@hotmail.com
-      name: oliverbaehler
-    - email: kk@sudo-i.net
-      name: chifu1234
-    name: tavern
-    type: application
-    urls:
-    - https://github.com/buttahtoast/helm-charts/releases/download/tavern-0.2.3/tavern-0.2.3.tgz
-    version: 0.2.3
-  - annotations:
-      artifacthub.io/containsSecurityUpdates: "false"
-      artifacthub.io/images: |
-        - name: tavern
-          image: buttahtoast/docker-tavern:1.0.3
-      artifacthub.io/prerelease: "true"
-    apiVersion: v2
-    appVersion: 1.0.4
-    created: "2020-12-27T13:58:53.045083084Z"
-    dependencies:
-    - name: manifests
-      repository: https://bedag.github.io/helm-charts
-      version: '>=0.1.0'
-    description: Unofficial Tavern Helm Chart
-    digest: 5bac92e2d6349a92eb6df71d96b78fbc93fa86b468105f10f3e5d0c4e3d28266
-    home: https://tavern.readthedocs.io/en/latest/
-    icon: https://tavern.readthedocs.io/en/latest/_static/icon.png
-    keywords:
-    - python
-    - tavern
-    - API testing
-    - pytest
-    maintainers:
-    - email: oliverbaehler@hotmail.com
-      name: oliverbaehler
-    - email: kk@sudo-i.net
-      name: chifu1234
-    name: tavern
-    type: application
-    urls:
-    - https://github.com/buttahtoast/helm-charts/releases/download/tavern-0.2.2/tavern-0.2.2.tgz
-    version: 0.2.2
-  - annotations:
-      artifacthub.io/containsSecurityUpdates: "false"
-      artifacthub.io/images: |
-        - name: tavern
-          image: buttahtoast/docker-tavern:1.0.3
-      artifacthub.io/prerelease: "true"
-    apiVersion: v2
-    appVersion: 1.0.3
-    created: "2020-12-25T22:50:32.34422616Z"
-    dependencies:
-    - name: manifests
-      repository: https://bedag.github.io/helm-charts
-      version: '>=0.1.0'
-    description: Unofficial Tavern Helm Chart
-    digest: 0d3d6882d2a416a66847372e93d8171c64472f1c5a6a1b3fc989af5cb3a03201
-    home: https://tavern.readthedocs.io/en/latest/
-    icon: https://tavern.readthedocs.io/en/latest/_static/icon.png
-    keywords:
-    - python
-    - tavern
-    - API testing
-    - pytest
-    maintainers:
-    - email: oliverbaehler@hotmail.com
-      name: oliverbaehler
-    - email: kk@sudo-i.net
-      name: chifu1234
-    name: tavern
-    type: application
-    urls:
-    - https://github.com/buttahtoast/helm-charts/releases/download/tavern-0.2.1/tavern-0.2.1.tgz
-    version: 0.2.1
-  - annotations:
-      artifacthub.io/containsSecurityUpdates: "false"
-      artifacthub.io/images: |
-        - name: tavern
-          image: buttahtoast/docker-tavern:1.0.3
-      artifacthub.io/prerelease: "true"
-    apiVersion: v2
-    appVersion: 1.0.3
-    created: "2020-12-25T15:53:37.178994851Z"
-    dependencies:
-    - name: manifests
-      repository: https://bedag.github.io/helm-charts
-      version: '>=0.1.0'
-    description: Unofficial Tavern Helm Chart
-    digest: 92876674750f47fa73230e8dbd199b7602ef85bb9af06bacd71a45fd300876c4
-    home: https://tavern.readthedocs.io/en/latest/
-    icon: https://tavern.readthedocs.io/en/latest/_static/icon.png
-    keywords:
-    - python
-    - tavern
-    - API testing
-    - pytest
-    maintainers:
-    - email: oliverbaehler@hotmail.com
-      name: oliverbaehler
-    - email: kk@sudo-i.net
-      name: chifu1234
-    name: tavern
-    type: application
-    urls:
-    - https://github.com/buttahtoast/helm-charts/releases/download/tavern-0.2.0/tavern-0.2.0.tgz
-    version: 0.2.0
-  - annotations:
-      artifacthub.io/containsSecurityUpdates: "false"
-      artifacthub.io/images: |
-        - name: tavern
-          image: buttahtoast/docker-tavern:1.0.3
-      artifacthub.io/prerelease: "true"
-    apiVersion: v2
-    appVersion: 1.0.3
-    created: "2020-12-24T14:09:50.767498914Z"
-    dependencies:
-    - name: library
-      repository: https://buttahtoast.github.io/helm-charts/
-      version: 0.2.0
-    description: Unofficial Tavern Helm Chart
-    digest: ff32cd97c4bd8eb0ae6615b6e8caf545a8bf8ccab3e8371d513611d73685a390
-    home: https://tavern.readthedocs.io/en/latest/
-    icon: https://tavern.readthedocs.io/en/latest/_static/icon.png
-    keywords:
-    - python
-    - tavern
-    - API testing
-    - pytest
-    maintainers:
-    - email: oliverbaehler@hotmail.com
-      name: oliverbaehler
-    - email: kk@sudo-i.net
-      name: chifu1234
-    name: tavern
-    type: application
-    urls:
-    - https://github.com/buttahtoast/helm-charts/releases/download/tavern-0.1.3/tavern-0.1.3.tgz
-    version: 0.1.3
-  - annotations:
-      artifacthub.io/containsSecurityUpdates: "false"
-      artifacthub.io/images: |
-        - name: tavern
-          image: buttahtoast/docker-tavern:1.0.3
-      artifacthub.io/prerelease: "true"
-    apiVersion: v2
-    appVersion: 1.0.3
-    created: "2020-12-14T15:00:58.141503125Z"
-    dependencies:
-    - name: library
-      repository: https://buttahtoast.github.io/helm-charts/
-      version: 0.2.0
-    description: Unofficial Tavern Helm Chart
-    digest: cb4ee6fd62908743f71167d86e872b973b9b9d2625e6c1334e0eb184031717da
-    home: https://tavern.readthedocs.io/en/latest/
-    icon: https://tavern.readthedocs.io/en/latest/_static/icon.png
-    keywords:
-    - python
-    - tavern
-    - API testing
-    - pytest
-    maintainers:
-    - email: oliverbaehler@hotmail.com
-      name: oliverbaehler
-    name: tavern
-    type: application
-    urls:
-    - https://github.com/buttahtoast/helm-charts/releases/download/tavern-0.1.2/tavern-0.1.2.tgz
-    version: 0.1.2
-  - annotations:
-      artifacthub.io/containsSecurityUpdates: "false"
-      artifacthub.io/images: |
-        - name: tavern
-          image: buttahtoast/docker-tavern:1.0.3
-      artifacthub.io/prerelease: "true"
-    apiVersion: v2
-    appVersion: 1.0.3
-    created: "2020-12-13T13:16:46.194749823Z"
-    dependencies:
-    - name: library
-      repository: https://buttahtoast.github.io/helm-charts/
-      version: 0.2.0
-    description: Unofficial Tavern Helm Chart
-    digest: 9a2aea8d3fc33477066b243a036cf346ab0037170faa61278a81603f96a6a6d7
-    home: https://tavern.readthedocs.io/en/latest/
-    icon: https://tavern.readthedocs.io/en/latest/_static/icon.png
-    keywords:
-    - python
-    - tavern
-    - API testing
-    - pytest
-    maintainers:
-    - email: oliverbaehler@hotmail.com
-      name: oliverbaehler
-    name: tavern
-    type: application
-    urls:
-    - https://github.com/buttahtoast/helm-charts/releases/download/tavern-0.1.1/tavern-0.1.1.tgz
-    version: 0.1.1
-  - annotations:
-      artifacthub.io/containsSecurityUpdates: "false"
-      artifacthub.io/images: |
-        - name: tavern
-          image: buttahtoast/docker-tavern:1.0.3
-      artifacthub.io/prerelease: "true"
-    apiVersion: v2
-    appVersion: 1.0.3
-    created: "2020-12-11T23:04:37.97569645Z"
-    dependencies:
-    - name: library
-      repository: https://buttahtoast.github.io/helm-charts/
-      version: 0.2.0
-    description: Unofficial Tavern Helm Chart
-    digest: b523db333c5bba10dc7abedf7f4af7534023156f3e20d8c5ed23204124c34d74
-    home: https://tavern.readthedocs.io/en/latest/
-    icon: https://tavern.readthedocs.io/en/latest/_static/icon.png
-    keywords:
-    - python
-    - tavern
-    - API testing
-    - pytest
-    maintainers:
-    - email: oliverbaehler@hotmail.com
-      name: oliverbaehler
-    name: tavern
-    type: application
-    urls:
-    - https://github.com/buttahtoast/helm-charts/releases/download/tavern-0.1.0/tavern-0.1.0.tgz
-    version: 0.1.0
-generated: "2020-07-10T12:00:39.462979193Z"
+    - https://github.com/oliverbaehler/helm-charts-1/releases/download/tavern-0.3.1/tavern-0.3.1.tgz
+    version: 0.3.1
+generated: "2021-03-23T20:05:40.349029258Z"
